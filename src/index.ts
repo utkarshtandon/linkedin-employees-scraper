@@ -504,7 +504,7 @@ export class LinkedInEmployeesScraper {
                             const link_string = link_elem?.getAttribute("href");
                             const cut_link = link_string?.split("?")[0];
                             const name_text = link_elem?.querySelector('span')?.querySelector('span')?.innerHTML;
-                            const name_spliced = name_text?.slice(8, -8);
+                            const name_spliced = name_text?.slice(7, -7);
                             data.push({cut_link,name_spliced}); 
                         });
                          

@@ -261,7 +261,7 @@ class LinkedInEmployeesScraper {
                                 const link_string = link_elem === null || link_elem === void 0 ? void 0 : link_elem.getAttribute("href");
                                 const cut_link = link_string === null || link_string === void 0 ? void 0 : link_string.split("?")[0];
                                 const name_text = (_b = (_a = link_elem === null || link_elem === void 0 ? void 0 : link_elem.querySelector('span')) === null || _a === void 0 ? void 0 : _a.querySelector('span')) === null || _b === void 0 ? void 0 : _b.innerHTML;
-                                const name_spliced = name_text === null || name_text === void 0 ? void 0 : name_text.slice(8, -8);
+                                const name_spliced = name_text === null || name_text === void 0 ? void 0 : name_text.slice(7, -7);
                                 data.push({ cut_link, name_spliced });
                             });
                         }
