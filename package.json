@@ -1,7 +1,7 @@
 {
-  "name": "linkedin-activities-scraper",
+  "name": "linkedin-employees-scraper",
   "version": "1.0.2",
-  "description": "LinkedIn activities scraper returning structured activites data in JSON. Works in 2020.",
+  "description": "LinkedIn employees scraper returning structured activites data in JSON. Works in 2020.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,10 +12,10 @@
     "update": "npx npm-check --update",
     "release": "release-it"
   },
-  "author": "Justin Martin <justin.martin.developpe@gmail.com> (https://github.com/JustinMartinDev)",
+  "author": "Utkarsh Tandon <utkarshtandon1@gmail.com> (https://github.com/utkarshtandon)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JustinMartinDev/linkedin-activites-scraper.git"
+    "url": "https://github.com/JustinMartinDev/linkedin-employees-scraper.git"
   },
   "license": "ISC",
   "dependencies": {
